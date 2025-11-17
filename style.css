@@ -1,0 +1,21 @@
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif;}
+body{background:#f0f2f5;color:#333;}
+header{background:#004aad;padding:20px;position:sticky;top:0;z-index:10;}
+header h2{color:#fff;margin-bottom:10px;}
+nav{display:flex;gap:20px;}
+nav a{color:#fff;text-decoration:none;font-weight:600;padding:10px 14px;border-radius:6px;transition:0.3s;}
+nav a:hover{background:#00337a;}
+.hero{height:350px;background:url('images/hero.jpg') center/cover no-repeat;display:flex;align-items:center;justify-content:center;color:white;text-shadow:0 3px 10px rgba(0,0,0,0.6);}
+.hero h1{font-size:48px;}
+.container{padding:40px;max-width:1100px;margin:auto;}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;}
+.card{background:white;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);padding:20px;transition:0.3s;}
+.card:hover{transform:translateY(-8px);}
+.card img{width:100%;border-radius:10px;margin-bottom:15px;}
+form{background:white;padding:25px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+form label{font-weight:bold;margin-top:10px;display:block;}
+form input, form select{width:100%;padding:12px;margin-top:8px;border-radius:8px;border:1px solid #ccc;}
+button{background:#004aad;color:white;border:none;padding:14px 20px;border-radius:8px;margin-top:20px;font-size:16px;cursor:pointer;transition:0.3s;}
+button:hover{background:#00337a;}
+footer{background:#004aad;color:white;padding:20px;margin-top:40px;text-align:center;}
